@@ -9,12 +9,12 @@ With the notebook Training-MDN.ipynb and Training-classification.ipynb the model
 The code for the set-up of the MDN is based on Earp et al. (2020).   
 
 ## Data preprocessing
-Here are some requirements for the input data for the ML inversion, as well as for the training data:
-1.) Love and Rayleigh Dispersion curves are used as input data together with their uncertainty vectors as seperate input 
-2.) Dispersion curves and uncertainty vectors should be logarithmically resampled with 100 samples between 1 - 20 Hz corresponding to the frequency:  
+Here are some requirements for the input data for the ML inversion, as well as for the training data:   
+1.) Love and Rayleigh Dispersion curves are used as input data together with their uncertainty vectors as seperate input    
+2.) Dispersion curves and uncertainty vectors should be logarithmically resampled with 100 samples between 1 - 20 Hz corresponding to the frequency:    
 #### freq=np.logspace(0,1.3,100,base=10)
-3.) The output for the classification NN is the layer number as intiger value. The output for the MDNs are the layer depth as intiger value and the S-wave velocity.
-4.) The phase velocity and uncertainty should be in km/s. The layer depth in m.
+3.) The output for the classification NN is the layer number as intiger value. The output for the MDNs are the layer depth as intiger value and the S-wave velocity.   
+4.) The phase velocity and uncertainty should be in km/s. The layer depth in m.   
 
 
 
