@@ -10,7 +10,7 @@ The code for the set-up of the MDN is based on Earp et al. (2020).
 
 
 ## Mixture Density Networks
-Mixture density networks (MDN) are a special type of neural networks that are able to model complete probability distributions.They are trained on the same data-model pairs, but instead of providing one model estimate they output the Bayesian posterior probability distribution. The probability density of the target data is represented by a mixture of Gaussian kernels.
+Mixture density networks (MDN) are a special type of neural networks that are able to model complete probability distributions. They are trained on the same data-model pairs, but instead of providing one model estimate they output the Bayesian posterior probability distribution. The probability density of the target data is represented by a mixture of Gaussian kernels.
 
 ## Data preprocessing
 Here are some requirements for the input data for the ML inversion, as well as for the training data: 
