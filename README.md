@@ -20,7 +20,7 @@ Here are some requirements for the input data for the ML inversion, as well as f
 1.) Love and Rayleigh Dispersion curves are used as input data together with their uncertainty vectors as seperate input    
 2.) Dispersion curves and uncertainty vectors should be logarithmically resampled with 100 samples between 1 - 20 Hz corresponding to the frequency:    
 #### freq=np.logspace(0,1.3,100,base=10)
-3.) The output for the classification NN is the layer number as intiger value. The output for the MDNs are the layer depth as intiger value and the S-wave velocity.   
+3.) The output data for the training pair of the classification NN is the layer number as intiger value. The output data for the MDNs are the layer depth as intiger value and the S-wave velocity in km/s.   
 4.) The phase velocity and uncertainty should be in km/s. The layer depth in m.   
 
 Some more details are given in the corresponding jupyter notebooks.
@@ -31,3 +31,5 @@ Some more details are given in the corresponding jupyter notebooks.
 Earp, S., Curtis, A., Zhang, X., & Hansteen, F. (2020). Probabilistic neural network tomography across Grane field (North Sea) from surface wave dispersion data. Geophysical Journal International, 223(3), 1741-1757.
 
 Keil, S. and Wassermann, J. (2023). Dispersion curve inversion using mixture density networks. Geophysical Journal International. (Submitted)
+
+### If you use this code and the trained ML models cite Keil and Wassermann (2023) and the corresponding zenodo repository: https://doi.org/10.5281/zenodo.7670360
