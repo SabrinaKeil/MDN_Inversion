@@ -32,4 +32,4 @@ Earp, S., Curtis, A., Zhang, X., & Hansteen, F. (2020). Probabilistic neural net
 
 Keil, S. and Wassermann, J. (2023). Dispersion curve inversion using mixture density networks. Geophysical Journal International. (Submitted)
 
-### If you use this code and the trained ML models cite Keil and Wassermann (2023) and the corresponding zenodo repository: https://doi.org/10.5281/zenodo.7670360
+#### If you use this code and the trained ML models cite Keil and Wassermann (2023) and the corresponding zenodo repository: https://doi.org/10.5281/zenodo.7670360
