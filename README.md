@@ -6,7 +6,10 @@ The ML approach presented here allows the simultaneous estimation of layer numbe
 The trained classification NN and the individual MDNs are located in the folder ./trained_models.   
 With the jupyter notebook Prediction.ipynb the dispersion curve inversion can be performed using the already trained models.    
 With the notebook Training-MDN.ipynb and Training-classification.ipynb the models can be trained on new data.   
-The code for the set-up of the MDN is based on Earp et al. (2020).   
+The code for the set-up of the MDN is based on Earp et al. (2020). 
+
+
+## Mixture Density Networks
 
 ## Data preprocessing
 Here are some requirements for the input data for the ML inversion, as well as for the training data: 
@@ -24,4 +27,4 @@ Some more details are given in the corresponding jupyter notebooks.
 ## References
 Earp, S., Curtis, A., Zhang, X., & Hansteen, F. (2020). Probabilistic neural network tomography across Grane field (North Sea) from surface wave dispersion data. Geophysical Journal International, 223(3), 1741-1757.
 
-Keil, S. and Wassermann, J. (2023). Dispersion curve inversion using mixture density networks. Geophysical Journal International.
+Keil, S. and Wassermann, J. (2023). Dispersion curve inversion using mixture density networks. Geophysical Journal International. (Submitted)
