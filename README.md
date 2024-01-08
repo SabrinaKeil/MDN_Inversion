@@ -3,7 +3,7 @@ Machine learning (ML) approach for dispersion curve inversion using mixture dens
 
 The ML approach presented here allows the simultaneous estimation of layer numbers, layer depth and a complete probability distribution of the S-wave velocity structure. This is achieved by a two-step ML approach, where 1) a regular NN classifies the number of layers within the upper 100 m of the subsurface and 2) a mixture density network outputs the depth estimates together with a fully probabilistic solution of the S-wave velocity structure. We trained the model to distinguish structures with 2 - 7 subsurface layers.
 
-The trained classification NN and the individual MDNs are located in the folder ./trained_models.   
+The trained classification NN and the individual MDNs are located in the folder ./Inversion_DC/trained_models.   
 With the jupyter notebook Prediction.ipynb the dispersion curve inversion can be performed using the already trained models.    
 With the notebook Training-MDN.ipynb and Training-classification.ipynb the models can be trained on new data.   
 The code for the set-up of the MDN is based on Earp et al. (2020). 
@@ -25,7 +25,12 @@ Here are some requirements for the input data for the ML inversion, as well as f
 
 Some more details are given in the corresponding jupyter notebooks.
 
+## Updates
+The original version (in folder Inversion_DC) after Keil and Wassermann (2023) only includes the inversion of Love and Rayleigh dispersion curves. The extended version (in folder Inversion_DC_HV) adds H/V curves to the inversion, which increases the accuracy of the predicted velocity models. 
 
+The H/V curves also need to be provided between 1-20 Hz. A tutorial for the usage of the models is given in ./Inversion_DC_HV/Prediction-DC_HV.ipynb
+
+Further updates are planned in the future.
 
 ## References
 Earp, S., Curtis, A., Zhang, X., & Hansteen, F. (2020). Probabilistic neural network tomography across Grane field (North Sea) from surface wave dispersion data. Geophysical Journal International, 223(3), 1741-1757.
